@@ -11,7 +11,7 @@ email_usr=$3
 
 mkdir $nome_dir
 cd $nome_dir
-echo "<!DOCTYPE html><html lang=\"pt-br\"><head><meta charset=\"UTF-8\"><meta name=\"viewport\" content=\"width=device->
+echo "<!DOCTYPE html><html lang=\"pt-br\"><head><meta charset=\"UTF-8\"><title></title></head><body></body></html>
 " > index.html
 git init .
 git config user.name $nome_usr
